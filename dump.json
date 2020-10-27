@@ -1,0 +1,655 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 10,
+      "types": [
+        {
+          "name": "ObjectID",
+          "bsonType": "ObjectID",
+          "path": "_id",
+          "count": 10,
+          "values": [
+            "5f97108173c2c22ef41f44e8",
+            "5f97108173c2c22ef41f44e9",
+            "5f97108173c2c22ef41f44ea",
+            "5f97108173c2c22ef41f44eb",
+            "5f97108173c2c22ef41f44ec",
+            "5f97108173c2c22ef41f44ed",
+            "5f97108173c2c22ef41f44ee",
+            "5f97108173c2c22ef41f44ef",
+            "5f97108173c2c22ef41f44f0",
+            "5f97108173c2c22ef41f44f1"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 10,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": "ObjectID",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "brojSezona",
+      "path": "brojSezona",
+      "count": 10,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "brojSezona",
+          "count": 10,
+          "values": [
+            4,
+            4,
+            12,
+            2,
+            3,
+            11,
+            4,
+            7,
+            12,
+            10
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 7,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 10,
+      "type": "Int32",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "glumci",
+      "path": "glumci",
+      "count": 10,
+      "types": [
+        {
+          "name": "Array",
+          "bsonType": "Array",
+          "path": "glumci",
+          "count": 10,
+          "types": [
+            {
+              "name": "Document",
+              "bsonType": "Document",
+              "path": "glumci",
+              "count": 27,
+              "fields": [
+                {
+                  "name": "ime",
+                  "path": "glumci.ime",
+                  "count": 27,
+                  "types": [
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "glumci.ime",
+                      "count": 27,
+                      "values": [
+                        "Aaron",
+                        "Amanda",
+                        "Noah",
+                        "Rami",
+                        "Cristian",
+                        "Jodie",
+                        "Peter",
+                        "Pearl",
+                        "Jon",
+                        "Amber",
+                        "Louis",
+                        "Karoline",
+                        "Lisa",
+                        "Ed",
+                        "Sof?a",
+                        "Julie",
+                        "Dylan",
+                        "Katherine",
+                        "Christian",
+                        "Andy",
+                        "Stephanie",
+                        "Terry",
+                        "Johnny",
+                        "Jim",
+                        "Kaley",
+                        "David",
+                        "Emily"
+                      ],
+                      "total_count": 0,
+                      "probability": 1,
+                      "unique": 27,
+                      "has_duplicates": false
+                    }
+                  ],
+                  "total_count": 27,
+                  "type": "String",
+                  "has_duplicates": false,
+                  "probability": 1
+                },
+                {
+                  "name": "prezime",
+                  "path": "glumci.prezime",
+                  "count": 27,
+                  "types": [
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "glumci.prezime",
+                      "count": 27,
+                      "values": [
+                        "Stanford",
+                        "Schull",
+                        "Bean",
+                        "Malek",
+                        "Slater",
+                        "Whittaker",
+                        "Capaldi",
+                        "Mackie",
+                        "Bernthal",
+                        "Rose Revah",
+                        "Hofmann",
+                        "Eichhorn",
+                        "Vicari",
+                        "O'Neill",
+                        "Vergara",
+                        "Bowen",
+                        "Minnette",
+                        "Langford",
+                        "Navarro",
+                        "Samberg",
+                        "Beatriz",
+                        "Crews",
+                        "Galecki",
+                        "Parsons",
+                        "Cuoco",
+                        "Caruso",
+                        "Procter"
+                      ],
+                      "total_count": 0,
+                      "probability": 1,
+                      "unique": 27,
+                      "has_duplicates": false
+                    }
+                  ],
+                  "total_count": 27,
+                  "type": "String",
+                  "has_duplicates": false,
+                  "probability": 1
+                },
+                {
+                  "name": "wikipediaStranicaGlumca",
+                  "path": "glumci.wikipediaStranicaGlumca",
+                  "count": 27,
+                  "types": [
+                    {
+                      "name": "String",
+                      "bsonType": "String",
+                      "path": "glumci.wikipediaStranicaGlumca",
+                      "count": 27,
+                      "values": [
+                        "https://en.wikipedia.org/wiki/Aaron_Stanford",
+                        "https://en.wikipedia.org/wiki/Amanda_Schull",
+                        "https://en.wikipedia.org/wiki/Noah_Bean",
+                        "https://en.wikipedia.org/wiki/Rami_Malek",
+                        "https://en.wikipedia.org/wiki/Christian_Slater",
+                        "https://en.wikipedia.org/wiki/Jodie_Whittaker",
+                        "https://en.wikipedia.org/wiki/Peter_Capaldi",
+                        "https://en.wikipedia.org/wiki/Pearl_Mackie",
+                        "https://en.wikipedia.org/wiki/Jon_Bernthal",
+                        "https://en.wikipedia.org/wiki/Amber_Rose_Revah",
+                        "https://en.wikipedia.org/wiki/Louis_Hofmann",
+                        "https://en.wikipedia.org/wiki/Karoline_Eichhorn",
+                        "https://en.wikipedia.org/wiki/Lisa_Vicari",
+                        "https://en.wikipedia.org/wiki/Ed_O%27Neill",
+                        "https://en.wikipedia.org/wiki/Sof?a_Vergara",
+                        "https://en.wikipedia.org/wiki/Julie_Bowen",
+                        "https://en.wikipedia.org/wiki/Dylan_Minnette",
+                        "https://en.wikipedia.org/wiki/Katherine_Langford",
+                        "https://en.wikipedia.org/wiki/Christian_Navarro",
+                        "https://en.wikipedia.org/wiki/Andy_Samberg",
+                        "https://en.wikipedia.org/wiki/Stephanie_Beatriz",
+                        "https://en.wikipedia.org/wiki/Terry_Crews",
+                        "https://en.wikipedia.org/wiki/Johnny_Galecki",
+                        "https://en.wikipedia.org/wiki/Jim_Parsons",
+                        "https://en.wikipedia.org/wiki/Kaley_Cuoco",
+                        "https://en.wikipedia.org/wiki/David_Caruso",
+                        "https://en.wikipedia.org/wiki/Emily_Procter"
+                      ],
+                      "total_count": 0,
+                      "probability": 1,
+                      "unique": 27,
+                      "has_duplicates": false
+                    }
+                  ],
+                  "total_count": 27,
+                  "type": "String",
+                  "has_duplicates": false,
+                  "probability": 1
+                }
+              ],
+              "total_count": 0,
+              "probability": 1
+            }
+          ],
+          "lengths": [
+            3,
+            2,
+            3,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2
+          ],
+          "total_count": 27,
+          "probability": 1,
+          "average_length": 2.7
+        }
+      ],
+      "total_count": 10,
+      "type": "Array",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "godinaSnimanjaOdDo",
+      "path": "godinaSnimanjaOdDo",
+      "count": 10,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "godinaSnimanjaOdDo",
+          "count": 10,
+          "values": [
+            "2015-2018",
+            "2015-2019",
+            "2005-",
+            "2017-2019",
+            "2017-2020",
+            "2009-2020",
+            "2017-2020",
+            "2013-",
+            "2007-2019",
+            "2002-2012"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 9,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 10,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "infoSerije",
+      "path": "infoSerije",
+      "count": 10,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "infoSerije",
+          "count": 10,
+          "values": [
+            "James Cole, vremenski putnik iz distopijske, bolescu poharane buducnosti, stize u sadasnjost s ocajnickim zadatkom da promijeni tijek povijesti. Inspirirano istoimenim hit filmom iz 1995. godine.",
+            "Dramska serija Mr. Robot prati Elliota Aldersona (Rami Malek), mladog inzenjera kibersigurnosti koji se spetlja s podzemnom hakerskom skupinom nakon sto ga regrutira njihov tajanstveni voda (Christian Slater).",
+            "Govori o pustolovinama tajanstvenog izvanzemaljca, poznatijeg kao Doktor, koji putuje kroz vrijeme i prostor u svom vremenskom stroju, TARDIS-u. Putujuci sa svojim mnogim suputnicima istrazuje svemir i vrijeme, rjesava probleme te se susrece s razlicitim cudovistima.",
+            "Nakon sto mu zlocinac ubije cijelu obitelj bivsi vojnik krece u osvetnicku misiju",
+            "Nakon nestanka djeteta, cetiri obitelji ocajnicki traze odgovore i rjesenje zagonetke koja obuhvaca tri generacije.",
+            "Satiricni pogled na tri razlicite obitelji iz perspektive nevidljivog snimatelja dokumentaraca",
+            "Nakon samoubojstva tinejdzerice Hanne njezini kolege iz skole dobiju seriju audio kaseta koje ce otkriti razloge njezinog tragicnog izbora. Prva sezona serije snimljena je prema istoimenom romanu Jaya Ashera dok su ostale sezone originalne price.",
+            "Serija radnjom prati ekipu detektiva i novo im dodijeljenog policijskog kapetana",
+            "Serija radnjom prati ekipu znanstvenika",
+            "CSI: Miami prati slucajeve juznofloridskog tima istrazitelja koji, koristeci se posljednjim detektivsko-znanstvenim, ali i onim klasicnim policijskim metodama, rjesava najbizarnije i najkompliciranije zlocine"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 10,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "nazivSerije",
+      "path": "nazivSerije",
+      "count": 10,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "nazivSerije",
+          "count": 10,
+          "values": [
+            "12 Monkeys",
+            "Mr.Robot",
+            "Doctor Who",
+            "Punisher",
+            "Dark",
+            "Modern Family",
+            "13 Reasons Why",
+            "Brooklyn Nine-Nine",
+            "The Big Bang Theory",
+            "CSI:Miami"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 10,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "ocjenaIMDb",
+      "path": "ocjenaIMDb",
+      "count": 10,
+      "types": [
+        {
+          "name": "Double",
+          "bsonType": "Double",
+          "path": "ocjenaIMDb",
+          "count": 10,
+          "values": [
+            7.7,
+            8.6,
+            8.6,
+            8.5,
+            8.8,
+            8.4,
+            7.6,
+            8.4,
+            8.1,
+            6.4
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 8,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 10,
+      "type": "Double",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "redatelj",
+      "path": "redatelj",
+      "count": 10,
+      "types": [
+        {
+          "name": "Document",
+          "bsonType": "Document",
+          "path": "redatelj",
+          "count": 10,
+          "fields": [
+            {
+              "name": "ime",
+              "path": "redatelj.ime",
+              "count": 10,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "redatelj.ime",
+                  "count": 10,
+                  "values": [
+                    "Travis",
+                    "Sam",
+                    "Sydney",
+                    "Steve",
+                    "Baran",
+                    "Steven",
+                    "Brian",
+                    "Dan",
+                    "Mark",
+                    "Joe"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 10,
+                  "has_duplicates": false
+                }
+              ],
+              "total_count": 10,
+              "type": "String",
+              "has_duplicates": false,
+              "probability": 1
+            },
+            {
+              "name": "prezime",
+              "path": "redatelj.prezime",
+              "count": 10,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "redatelj.prezime",
+                  "count": 10,
+                  "values": [
+                    "Fickett",
+                    "Esmail",
+                    "Newman",
+                    "Lightfoot",
+                    "bo Odar",
+                    "Levitan",
+                    "Yorkey",
+                    "Goor",
+                    "Cendrowski",
+                    "Chappelle"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 10,
+                  "has_duplicates": false
+                }
+              ],
+              "total_count": 10,
+              "type": "String",
+              "has_duplicates": false,
+              "probability": 1
+            },
+            {
+              "name": "wikipediaStranicaRedatelja",
+              "path": "redatelj.wikipediaStranicaRedatelja",
+              "count": 10,
+              "types": [
+                {
+                  "name": "String",
+                  "bsonType": "String",
+                  "path": "redatelj.wikipediaStranicaRedatelja",
+                  "count": 10,
+                  "values": [
+                    "https://en.wikipedia.org/wiki/Terry_Gilliam",
+                    "https://en.wikipedia.org/wiki/Sam_Esmail",
+                    "https://en.wikipedia.org/wiki/Sydney_Newman",
+                    "https://en.wikipedia.org/wiki/Steve_Lightfoot",
+                    "https://en.wikipedia.org/wiki/Baran_bo_Odar",
+                    "https://en.wikipedia.org/wiki/Steven_Levitan",
+                    "https://en.wikipedia.org/wiki/Steven_Levitan",
+                    "https://en.wikipedia.org/wiki/Dan_Goor",
+                    "https://en.wikipedia.org/wiki/Mark_Cendrowski",
+                    "https://en.wikipedia.org/wiki/Joe_Chappelle"
+                  ],
+                  "total_count": 0,
+                  "probability": 1,
+                  "unique": 9,
+                  "has_duplicates": true
+                }
+              ],
+              "total_count": 10,
+              "type": "String",
+              "has_duplicates": true,
+              "probability": 1
+            }
+          ],
+          "total_count": 0,
+          "probability": 1
+        }
+      ],
+      "total_count": 10,
+      "type": "Document",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "urlPostera",
+      "path": "urlPostera",
+      "count": 10,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "urlPostera",
+          "count": 10,
+          "values": [
+            "https://i.pinimg.com/originals/54/58/9c/54589c20f2ee47bb77092c2b3aea90ac.jpg",
+            "https://images-na.ssl-images-amazon.com/images/I/A1fn0Ov4srL._AC_SL1500_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/I/61e2LaUbu9L._AC_SL1024_.jpg",
+            "https://m.media-amazon.com/images/M/MV5BMTExODIwOTUxNzFeQTJeQWpwZ15BbWU4MDE5MDA0MTcz._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "https://m.media-amazon.com/images/M/MV5BZmY2YzU4NDktODIxYi00YWIyLWIzYTctODBkYzYzZjc0ODdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "https://m.media-amazon.com/images/M/MV5BNzRhNWIxYTEtYjc2NS00YWFlLWFhOGEtMDZiMWM1M2RkNDkyXkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "https://m.media-amazon.com/images/M/MV5BMDYzZTRlNGEtZDc2Mi00ZGNjLTlmZDAtMmVjMDZkOThiODEwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "https://m.media-amazon.com/images/M/MV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_UX182_CR0,0,182,268_AL_.jpg",
+            "https://m.media-amazon.com/images/M/MV5BOTU3ZTI5ZGEtYjhiMy00ODU4LTgyM2UtNDhlYjBhMjc4MjIwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_UY268_CR0,0,182,268_AL_.jpg"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 10,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "wikipediaStranicaSerije",
+      "path": "wikipediaStranicaSerije",
+      "count": 10,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "wikipediaStranicaSerije",
+          "count": 10,
+          "values": [
+            "https://en.wikipedia.org/wiki/12_Monkeys_(TV_series)",
+            "https://en.wikipedia.org/wiki/Mr._Robot",
+            "https://en.wikipedia.org/wiki/Doctor_Who",
+            "https://en.wikipedia.org/wiki/The_Punisher_(TV_series)",
+            "https://en.wikipedia.org/wiki/Dark_(TV_series)",
+            "https://en.wikipedia.org/wiki/Modern_Family",
+            "https://en.wikipedia.org/wiki/13_Reasons_Why",
+            "https://en.wikipedia.org/wiki/Brooklyn_Nine-Nine",
+            "https://en.wikipedia.org/wiki/The_Big_Bang_Theory",
+            "https://en.wikipedia.org/wiki/CSI:_Miami"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 10,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 10,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "zanr",
+      "path": "zanr",
+      "count": 10,
+      "types": [
+        {
+          "name": "Array",
+          "bsonType": "Array",
+          "path": "zanr",
+          "count": 10,
+          "types": [
+            {
+              "name": "String",
+              "bsonType": "String",
+              "path": "zanr",
+              "count": 26,
+              "values": [
+                "Avantura",
+                "Drama",
+                "Misterij",
+                "Drama",
+                "Triler",
+                "Misterij",
+                "Avantura",
+                "Drama",
+                "Akcija",
+                "Drama",
+                "Krim",
+                "Krim",
+                "Drama",
+                "Misterij",
+                "Komedija",
+                "Drama",
+                "Romansa",
+                "Drama",
+                "Misterij",
+                "Komedija",
+                "Krim",
+                "Komedija",
+                "Romansa",
+                "Akcija",
+                "Drama",
+                "Krim"
+              ],
+              "total_count": 0,
+              "probability": 1,
+              "unique": 8,
+              "has_duplicates": true
+            }
+          ],
+          "lengths": [
+            3,
+            3,
+            2,
+            3,
+            3,
+            3,
+            2,
+            2,
+            2,
+            3
+          ],
+          "total_count": 26,
+          "probability": 1,
+          "average_length": 2.6
+        }
+      ],
+      "total_count": 10,
+      "type": "Array",
+      "has_duplicates": false,
+      "probability": 1
+    }
+  ],
+  "count": 10
+}
