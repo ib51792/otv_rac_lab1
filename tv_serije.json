@@ -1,0 +1,362 @@
+[{
+  "_id": {
+    "$oid": "5f97108173c2c22ef41f44e8"
+  },
+  "nazivSerije": "12 Monkeys",
+  "ocjenaIMDb": 7.7,
+  "zanr": [
+    "Avantura",
+    "Drama",
+    "Misterij"
+  ],
+  "redatelj": {
+    "imeRedatelj": "Travis",
+    "prezimeRedatelj" : "Fickett",
+    "wikipediaStranicaRedatelja": "Travis_Fickett"
+  },
+  "glumci": [
+    {
+      "imeGlumac": "Aaron",
+      "prezimeGlumac": "Stanford",
+      "wikipediaStranicaGlumca": "Aaron_Stanford"
+    },
+    {
+      "imeGlumac": "Amanda",
+      "prezimeGlumac": "Schull",
+      "wikipediaStranicaGlumca": "Amanda_Schull"
+    },
+    {
+      "imeGlumac": "Noah",
+      "prezimeGlumac": "Bean",
+      "wikipediaStranicaGlumca": "Noah_Bean"
+    }
+  ],
+  "wikipediaStranicaSerije": "12_Monkeys_(TV_series)",
+  "brojSezona": 4,
+  "godinaSnimanjaOdDo": "2015-2018",
+  "infoSerije": "James Cole, vremenski putnik iz distopijske, bolescu poharane buducnosti, stize u sadasnjost s ocajnickim zadatkom da promijeni tijek povijesti. Inspirirano istoimenim hit filmom iz 1995. godine.",
+  "urlPostera": "https://i.pinimg.com/originals/54/58/9c/54589c20f2ee47bb77092c2b3aea90ac.jpg"
+},{
+  "_id": {
+    "$oid": "5f97108173c2c22ef41f44e9"
+  },
+  "nazivSerije": "Mr.Robot",
+  "ocjenaIMDb": 8.6,
+  "zanr": [
+    "Drama",
+    "Triler",
+    "Misterij"
+  ],
+  "redatelj": {
+    "imeRedatelj": "Sam",
+    "prezimeRedatelj": "Esmail",
+    "wikipediaStranicaRedatelja": "Sam_Esmail"
+  },
+  "glumci": [
+    {
+      "imeGlumac": "Rami",
+      "prezimeGlumac": "Malek",
+      "wikipediaStranicaGlumca": "Rami_Malek"
+    },
+    {
+      "imeGlumac": "Cristian",
+      "prezimeGlumac": "Slater",
+      "wikipediaStranicaGlumca": "Christian_Slater"
+    }
+  ],
+  "wikipediaStranicaSerije": "Mr._Robot",
+  "brojSezona": 4,
+  "godinaSnimanjaOdDo": "2015-2019",
+  "infoSerije": "Dramska serija Mr. Robot prati Elliota Aldersona (Rami Malek), mladog inzenjera kibersigurnosti koji se spetlja s podzemnom hakerskom skupinom nakon sto ga regrutira njihov tajanstveni voda (Christian Slater).",
+  "urlPostera": "https://images-na.ssl-images-amazon.com/images/I/A1fn0Ov4srL._AC_SL1500_.jpg"
+},{
+  "_id": {
+    "$oid": "5f97108173c2c22ef41f44ea"
+  },
+  "nazivSerije": "Doctor Who",
+  "ocjenaIMDb": 8.6,
+  "zanr": [
+    "Avantura",
+    "Drama"
+  ],
+  "redatelj": {
+    "imeRedatelj": "Sydney",
+    "prezimeRedatelj": "Newman",
+    "wikipediaStranicaRedatelja": "Sydney_Newman"
+  },
+  "glumci": [
+    {
+      "imeGlumac": "Jodie",
+      "prezimeGlumac": "Whittaker",
+      "wikipediaStranicaGlumca": "Jodie_Whittaker"
+    },
+    {
+      "imeGlumac": "Peter",
+      "prezimeGlumac": "Capaldi",
+      "wikipediaStranicaGlumca": "Peter_Capaldi"
+    },
+    {
+      "imeGlumac": "Pearl",
+      "prezimeGlumac": "Mackie",
+      "wikipediaStranicaGlumca": "Pearl_Mackie"
+    }
+  ],
+  "wikipediaStranicaSerije": "Doctor_Who",
+  "brojSezona": 12,
+  "godinaSnimanjaOdDo": "2005-",
+  "infoSerije": "Govori o pustolovinama tajanstvenog izvanzemaljca, poznatijeg kao Doktor, koji putuje kroz vrijeme i prostor u svom vremenskom stroju, TARDIS-u. Putujuci sa svojim mnogim suputnicima istrazuje svemir i vrijeme, rjesava probleme te se susrece s razlicitim cudovistima.",
+  "urlPostera": "https://images-na.ssl-images-amazon.com/images/I/61e2LaUbu9L._AC_SL1024_.jpg"
+},{
+  "_id": {
+    "$oid": "5f97108173c2c22ef41f44eb"
+  },
+  "nazivSerije": "Punisher",
+  "ocjenaIMDb": 8.5,
+  "zanr": [
+    "Akcija",
+    "Drama",
+    "Krim"
+  ],
+  "redatelj": {
+    "imeRedatelj": "Steve",
+    "prezimeRedatelj": "Lightfoot",
+    "wikipediaStranicaRedatelja": "Steve_Lightfoot"
+  },
+  "glumci": [
+    {
+      "imeGlumac": "Jon",
+      "prezimeGlumac": "Bernthal",
+      "wikipediaStranicaGlumca": "Jon_Bernthal"
+    },
+    {
+      "imeGlumac": "Amber",
+      "prezimeGlumac": "Rose Revah",
+      "wikipediaStranicaGlumca": "Amber_Rose_Revah"
+    }
+  ],
+  "wikipediaStranicaSerije": "The_Punisher_(TV_series)",
+  "brojSezona": 2,
+  "godinaSnimanjaOdDo": "2017-2019",
+  "infoSerije": "Nakon sto mu zlocinac ubije cijelu obitelj bivsi vojnik krece u osvetnicku misiju",
+  "urlPostera": "https://m.media-amazon.com/images/M/MV5BMTExODIwOTUxNzFeQTJeQWpwZ15BbWU4MDE5MDA0MTcz._V1_UX182_CR0,0,182,268_AL_.jpg"
+},{
+  "_id": {
+    "$oid": "5f97108173c2c22ef41f44ec"
+  },
+  "nazivSerije": "Dark",
+  "ocjenaIMDb": 8.8,
+  "zanr": [
+    "Krim",
+    "Drama",
+    "Misterij"
+  ],
+  "redatelj": {
+    "imeRedatelj": "Baran",
+    "prezimeRedatelj": "bo Odar",
+    "wikipediaStranicaRedatelja": "Baran_bo_Odar"
+  },
+  "glumci": [
+    {
+      "imeGlumac": "Louis",
+      "prezimeGlumac": "Hofmann",
+      "wikipediaStranicaGlumca": "Louis_Hofmann"
+    },
+    {
+      "imeGlumac": "Karoline",
+      "prezimeGlumac": "Eichhorn",
+      "wikipediaStranicaGlumca": "Karoline_Eichhorn"
+    },
+    {
+      "imeGlumac": "Lisa",
+      "prezimeGlumac": "Vicari",
+      "wikipediaStranicaGlumca": "Lisa_Vicari"
+    }
+  ],
+  "wikipediaStranicaSerije": "Dark_(TV_series)",
+  "brojSezona": 3,
+  "godinaSnimanjaOdDo": "2017-2020",
+  "infoSerije": "Nakon nestanka djeteta, cetiri obitelji ocajnicki traze odgovore i rjesenje zagonetke koja obuhvaca tri generacije.",
+  "urlPostera": "https://m.media-amazon.com/images/M/MV5BZmY2YzU4NDktODIxYi00YWIyLWIzYTctODBkYzYzZjc0ODdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX182_CR0,0,182,268_AL_.jpg"
+},{
+  "_id": {
+    "$oid": "5f97108173c2c22ef41f44ed"
+  },
+  "nazivSerije": "Modern Family",
+  "ocjenaIMDb": 8.4,
+  "zanr": [
+    "Komedija",
+    "Drama",
+    "Romansa"
+  ],
+  "redatelj": {
+    "imeRedatelj": "Steven",
+    "prezimeRedatelj": "Levitan",
+    "wikipediaStranicaRedatelja": "Steven_Levitan"
+  },
+  "glumci": [
+    {
+      "imeGlumac": "Ed",
+      "prezimeGlumac": "O'Neill",
+      "wikipediaStranicaGlumca": "Ed_O%27Neill"
+    },
+    {
+      "imeGlumac": "Sof�a",
+      "prezimeGlumac": "Vergara",
+      "wikipediaStranicaGlumca": "Sof�a_Vergara"
+    },
+    {
+      "imeGlumac": "Julie",
+      "prezimeGlumac": "Bowen",
+      "wikipediaStranicaGlumca": "Julie_Bowen"
+    }
+  ],
+  "wikipediaStranicaSerije": "Modern_Family",
+  "brojSezona": 11,
+  "godinaSnimanjaOdDo": "2009-2020",
+  "infoSerije": "Satiricni pogled na tri razlicite obitelji iz perspektive nevidljivog snimatelja dokumentaraca",
+  "urlPostera": "https://m.media-amazon.com/images/M/MV5BNzRhNWIxYTEtYjc2NS00YWFlLWFhOGEtMDZiMWM1M2RkNDkyXkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_UX182_CR0,0,182,268_AL_.jpg"
+},{
+  "_id": {
+    "$oid": "5f97108173c2c22ef41f44ee"
+  },
+  "nazivSerije": "13 Reasons Why",
+  "ocjenaIMDb": 7.6,
+  "zanr": [
+    "Drama",
+    "Misterij"
+  ],
+  "redatelj": {
+    "imeRedatelj": "Brian",
+    "prezimeRedatelj": "Yorkey",
+    "wikipediaStranicaRedatelja": "Steven_Levitan"
+  },
+  "glumci": [
+    {
+      "imeGlumac": "Dylan",
+      "prezimeGlumac": "Minnette",
+      "wikipediaStranicaGlumca": "Dylan_Minnette"
+    },
+    {
+      "imeGlumac": "Katherine",
+      "prezimeGlumac": "Langford",
+      "wikipediaStranicaGlumca": "Katherine_Langford"
+    },
+    {
+      "imeGlumac": "Christian",
+      "prezimeGlumac": "Navarro",
+      "wikipediaStranicaGlumca": "Christian_Navarro"
+    }
+  ],
+  "wikipediaStranicaSerije": "13_Reasons_Why",
+  "brojSezona": 4,
+  "godinaSnimanjaOdDo": "2017-2020",
+  "infoSerije": "Nakon samoubojstva tinejdzerice Hanne njezini kolege iz skole dobiju seriju audio kaseta koje ce otkriti razloge njezinog tragicnog izbora. Prva sezona serije snimljena je prema istoimenom romanu Jaya Ashera dok su ostale sezone originalne price.",
+  "urlPostera": "https://m.media-amazon.com/images/M/MV5BMDYzZTRlNGEtZDc2Mi00ZGNjLTlmZDAtMmVjMDZkOThiODEwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+},{
+  "_id": {
+    "$oid": "5f97108173c2c22ef41f44ef"
+  },
+  "nazivSerije": "Brooklyn Nine-Nine",
+  "ocjenaIMDb": 8.4,
+  "zanr": [
+    "Komedija",
+    "Krim"
+  ],
+  "redatelj": {
+    "imeRedatelj": "Dan",
+    "prezimeRedatelj": "Goor",
+    "wikipediaStranicaRedatelja": "Dan_Goor"
+  },
+  "glumci": [
+    {
+      "imeGlumac": "Andy",
+      "prezimeGlumac": "Samberg",
+      "wikipediaStranicaGlumca": "Andy_Samberg"
+    },
+    {
+      "imeGlumac": "Stephanie",
+      "prezimeGlumac": "Beatriz",
+      "wikipediaStranicaGlumca": "Stephanie_Beatriz"
+    },
+    {
+      "imeGlumac": "Terry",
+      "prezimeGlumac": "Crews",
+      "wikipediaStranicaGlumca": "Terry_Crews"
+    }
+  ],
+  "wikipediaStranicaSerije": "Brooklyn_Nine-Nine",
+  "brojSezona": 7,
+  "godinaSnimanjaOdDo": "2013-",
+  "infoSerije": "Serija radnjom prati ekipu detektiva i novo im dodijeljenog policijskog kapetana",
+  "urlPostera": "https://m.media-amazon.com/images/M/MV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_UX182_CR0,0,182,268_AL_.jpg"
+},{
+  "_id": {
+    "$oid": "5f97108173c2c22ef41f44f0"
+  },
+  "nazivSerije": "The Big Bang Theory",
+  "ocjenaIMDb": 8.1,
+  "zanr": [
+    "Komedija",
+    "Romansa"
+  ],
+  "redatelj": {
+    "imeRedatelj": "Mark",
+    "prezimeRedatelj": "Cendrowski",
+    "wikipediaStranicaRedatelja": "Mark_Cendrowski"
+  },
+  "glumci": [
+    {
+      "imeGlumac": "Johnny",
+      "prezimeGlumac": "Galecki",
+      "wikipediaStranicaGlumca": "Johnny_Galecki"
+    },
+    {
+      "imeGlumac": "Jim",
+      "prezimeGlumac": "Parsons",
+      "wikipediaStranicaGlumca": "Jim_Parsons"
+    },
+    {
+      "imeGlumac": "Kaley",
+      "prezimeGlumac": "Cuoco",
+      "wikipediaStranicaGlumca": "Kaley_Cuoco"
+    }
+  ],
+  "wikipediaStranicaSerije": "The_Big_Bang_Theory",
+  "brojSezona": 12,
+  "godinaSnimanjaOdDo": "2007-2019",
+  "infoSerije": "Serija radnjom prati ekipu znanstvenika",
+  "urlPostera": "https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_UX182_CR0,0,182,268_AL_.jpg"
+},{
+  "_id": {
+    "$oid": "5f97108173c2c22ef41f44f1"
+  },
+  "nazivSerije": "CSI:Miami",
+  "ocjenaIMDb": 6.4,
+  "zanr": [
+    "Akcija",
+    "Drama",
+    "Krim"
+  ],
+  "redatelj": {
+    "imeRedatelj": "Joe", 
+    "prezimeRedatelj": "Chappelle",
+    "wikipediaStranicaRedatelja": "Joe_Chappelle"
+  },
+  "glumci": [
+    {
+      "imeGlumac": "David",
+      "prezimeGlumac":"Caruso",
+      "wikipediaStranicaGlumca": "David_Caruso"
+    },
+    {
+      "imeGlumac": "Emily",
+      "prezimeGlumac":"Procter",
+      "wikipediaStranicaGlumca": "Emily_Procter"
+    }
+  ],
+  "wikipediaStranicaSerije": "CSI:_Miami",
+  "brojSezona": 10,
+  "godinaSnimanjaOdDo": "2002-2012",
+  "infoSerije": "CSI: Miami prati slucajeve juznofloridskog tima istrazitelja koji, koristeci se posljednjim detektivsko-znanstvenim, ali i onim klasicnim policijskim metodama, rjesava najbizarnije i najkompliciranije zlocine",
+  "urlPostera": "m.media-amazon.com/images/M/MV5BOTU3ZTI5ZGEtYjhiMy00ODU4LTgyM2UtNDhlYjBhMjc4MjIwXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_UY268_CR0,0,182,268_AL_.jpg"
+}]

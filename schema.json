@@ -1,0 +1,414 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "examples": [
+        [
+            {
+                "_id": {
+                    "$oid": "5f97108173c2c22ef41f44e8"
+                },
+                "nazivSerije": "12 Monkeys",
+                "ocjenaIMDb": 7.7,
+                "zanr": [
+                    "Avantura",
+                    "Drama",
+                    "Misterij"
+                ],
+                "redatelj": {
+                    "imeRedatelj": "Travis",
+                    "prezimeRedatelj": "Fickett",
+                    "wikipediaStranicaRedatelja": "Travis_Fickett"
+                },
+                "glumci": [
+                    {
+                        "imeGlumac": "Aaron",
+                        "prezimeGlumac": "Stanford",
+                        "wikipediaStranicaGlumca": "Aaron_Stanford"
+                    },
+                    {
+                        "imeGlumac": "Amanda",
+                        "prezimeGlumac": "Schull",
+                        "wikipediaStranicaGlumca": "Amanda_Schull"
+                    },
+                    {
+                        "imeGlumac": "Noah",
+                        "prezimeGlumac": "Bean",
+                        "wikipediaStranicaGlumca": "Noah_Bean"
+                    }
+                ],
+                "wikipediaStranicaSerije": "12_Monkeys_(TV_series)",
+                "brojSezona": 4,
+                "godinaSnimanjaOdDo": "2015-2018",
+                "infoSerije": "James Cole, vremenski putnik iz distopijske, bolescu poharane buducnosti, stize u sadasnjost s ocajnickim zadatkom da promijeni tijek povijesti. Inspirirano istoimenim hit filmom iz 1995. godine.",
+                "urlPostera": "https://i.pinimg.com/originals/54/58/9c/54589c20f2ee47bb77092c2b3aea90ac.jpg"
+            },
+            {
+                "_id": {
+                    "$oid": "5f97108173c2c22ef41f44e9"
+                },
+                "nazivSerije": "Mr.Robot",
+                "ocjenaIMDb": 8.6,
+                "zanr": [
+                    "Drama",
+                    "Triler",
+                    "Misterij"
+                ],
+                "redatelj": {
+                    "imeRedatelj": "Sam",
+                    "prezimeRedatelj": "Esmail",
+                    "wikipediaStranicaRedatelja": "Sam_Esmail"
+                },
+                "glumci": [
+                    {
+                        "imeGlumac": "Rami",
+                        "prezimeGlumac": "Malek",
+                        "wikipediaStranicaGlumca": "Rami_Malek"
+                    },
+                    {
+                        "imeGlumac": "Cristian",
+                        "prezimeGlumac": "Slater",
+                        "wikipediaStranicaGlumca": "Christian_Slater"
+                    }
+                ],
+                "wikipediaStranicaSerije": "Mr._Robot",
+                "brojSezona": 4,
+                "godinaSnimanjaOdDo": "2015-2019",
+                "infoSerije": "Dramska serija Mr. Robot prati Elliota Aldersona (Rami Malek), mladog inzenjera kibersigurnosti koji se spetlja s podzemnom hakerskom skupinom nakon sto ga regrutira njihov tajanstveni voda (Christian Slater).",
+                "urlPostera": "https://images-na.ssl-images-amazon.com/images/I/A1fn0Ov4srL._AC_SL1500_.jpg"
+            }
+        ]
+    ],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "anyOf": [
+            {
+                "$id": "#/items/anyOf/0",
+                "type": "object",
+                "title": "The first anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                    {
+                        "_id": {
+                            "$oid": "5f97108173c2c22ef41f44e8"
+                        },
+                        "nazivSerije": "12 Monkeys",
+                        "ocjenaIMDb": 7.7,
+                        "zanr": [
+                            "Avantura",
+                            "Drama",
+                            "Misterij"
+                        ],
+                        "redatelj": {
+                            "imeRedatelj": "Travis",
+                            "prezimeRedatelj": "Fickett",
+                            "wikipediaStranicaRedatelja": "Travis_Fickett"
+                        },
+                        "glumci": [
+                            {
+                                "imeGlumac": "Aaron",
+                                "prezimeGlumac": "Stanford",
+                                "wikipediaStranicaGlumca": "Aaron_Stanford"
+                            },
+                            {
+                                "imeGlumac": "Amanda",
+                                "prezimeGlumac": "Schull",
+                                "wikipediaStranicaGlumca": "Amanda_Schull"
+                            },
+                            {
+                                "imeGlumac": "Noah",
+                                "prezimeGlumac": "Bean",
+                                "wikipediaStranicaGlumca": "Noah_Bean"
+                            }
+                        ],
+                        "wikipediaStranicaSerije": "12_Monkeys_(TV_series)",
+                        "brojSezona": 4,
+                        "godinaSnimanjaOdDo": "2015-2018",
+                        "infoSerije": "James Cole, vremenski putnik iz distopijske, bolescu poharane buducnosti, stize u sadasnjost s ocajnickim zadatkom da promijeni tijek povijesti. Inspirirano istoimenim hit filmom iz 1995. godine.",
+                        "urlPostera": "https://i.pinimg.com/originals/54/58/9c/54589c20f2ee47bb77092c2b3aea90ac.jpg"
+                    }
+                ],
+                "required": [
+                    "_id",
+                    "nazivSerije",
+                    "ocjenaIMDb",
+                    "zanr",
+                    "redatelj",
+                    "glumci",
+                    "wikipediaStranicaSerije",
+                    "brojSezona",
+                    "godinaSnimanjaOdDo",
+                    "infoSerije",
+                    "urlPostera"
+                ],
+                "properties": {
+                    "_id": {
+                        "$id": "#/items/anyOf/0/properties/_id",
+                        "type": "object",
+                        "title": "The _id schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "$oid": "5f97108173c2c22ef41f44e8"
+                            }
+                        ],
+                        "required": [
+                            "$oid"
+                        ],
+                        "properties": {
+                            "$oid": {
+                                "$id": "#/items/anyOf/0/properties/_id/properties/%24oid",
+                                "type": "string",
+                                "title": "The $oid schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "5f97108173c2c22ef41f44e8"
+                                ]
+                            }
+                        },
+                        "additionalProperties": true
+                    },
+                    "nazivSerije": {
+                        "$id": "#/items/anyOf/0/properties/nazivSerije",
+                        "type": "string",
+                        "title": "The nazivSerije schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "12 Monkeys"
+                        ]
+                    },
+                    "ocjenaIMDb": {
+                        "$id": "#/items/anyOf/0/properties/ocjenaIMDb",
+                        "type": "number",
+                        "title": "The ocjenaIMDb schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0.0,
+                        "examples": [
+                            7.7
+                        ]
+                    },
+                    "zanr": {
+                        "$id": "#/items/anyOf/0/properties/zanr",
+                        "type": "array",
+                        "title": "The zanr schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": [],
+                        "examples": [
+                            [
+                                "Avantura",
+                                "Drama"
+                            ]
+                        ],
+                        "additionalItems": true,
+                        "items": {
+                            "$id": "#/items/anyOf/0/properties/zanr/items",
+                            "anyOf": [
+                                {
+                                    "$id": "#/items/anyOf/0/properties/zanr/items/anyOf/0",
+                                    "type": "string",
+                                    "title": "The first anyOf schema",
+                                    "description": "An explanation about the purpose of this instance.",
+                                    "default": "",
+                                    "examples": [
+                                        "Avantura",
+                                        "Drama"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "redatelj": {
+                        "$id": "#/items/anyOf/0/properties/redatelj",
+                        "type": "object",
+                        "title": "The redatelj schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "imeRedatelj": "Travis",
+                                "prezimeRedatelj": "Fickett",
+                                "wikipediaStranicaRedatelja": "Travis_Fickett"
+                            }
+                        ],
+                        "required": [
+                            "imeRedatelj",
+                            "prezimeRedatelj",
+                            "wikipediaStranicaRedatelja"
+                        ],
+                        "properties": {
+                            "imeRedatelj": {
+                                "$id": "#/items/anyOf/0/properties/redatelj/properties/imeRedatelj",
+                                "type": "string",
+                                "title": "The imeRedatelj schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Travis"
+                                ]
+                            },
+                            "prezimeRedatelj": {
+                                "$id": "#/items/anyOf/0/properties/redatelj/properties/prezimeRedatelj",
+                                "type": "string",
+                                "title": "The prezimeRedatelj schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Fickett"
+                                ]
+                            },
+                            "wikipediaStranicaRedatelja": {
+                                "$id": "#/items/anyOf/0/properties/redatelj/properties/wikipediaStranicaRedatelja",
+                                "type": "string",
+                                "title": "The wikipediaStranicaRedatelja schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Travis_Fickett"
+                                ]
+                            }
+                        },
+                        "additionalProperties": true
+                    },
+                    "glumci": {
+                        "$id": "#/items/anyOf/0/properties/glumci",
+                        "type": "array",
+                        "title": "The glumci schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": [],
+                        "examples": [
+                            [
+                                {
+                                    "imeGlumac": "Aaron",
+                                    "prezimeGlumac": "Stanford",
+                                    "wikipediaStranicaGlumca": "Aaron_Stanford"
+                                },
+                                {
+                                    "imeGlumac": "Amanda",
+                                    "prezimeGlumac": "Schull",
+                                    "wikipediaStranicaGlumca": "Amanda_Schull"
+                                }
+                            ]
+                        ],
+                        "additionalItems": true,
+                        "items": {
+                            "$id": "#/items/anyOf/0/properties/glumci/items",
+                            "anyOf": [
+                                {
+                                    "$id": "#/items/anyOf/0/properties/glumci/items/anyOf/0",
+                                    "type": "object",
+                                    "title": "The first anyOf schema",
+                                    "description": "An explanation about the purpose of this instance.",
+                                    "default": {},
+                                    "examples": [
+                                        {
+                                            "imeGlumac": "Aaron",
+                                            "prezimeGlumac": "Stanford",
+                                            "wikipediaStranicaGlumca": "Aaron_Stanford"
+                                        }
+                                    ],
+                                    "required": [
+                                        "imeGlumac",
+                                        "prezimeGlumac",
+                                        "wikipediaStranicaGlumca"
+                                    ],
+                                    "properties": {
+                                        "imeGlumac": {
+                                            "$id": "#/items/anyOf/0/properties/glumci/items/anyOf/0/properties/imeGlumac",
+                                            "type": "string",
+                                            "title": "The imeGlumac schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": "",
+                                            "examples": [
+                                                "Aaron"
+                                            ]
+                                        },
+                                        "prezimeGlumac": {
+                                            "$id": "#/items/anyOf/0/properties/glumci/items/anyOf/0/properties/prezimeGlumac",
+                                            "type": "string",
+                                            "title": "The prezimeGlumac schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": "",
+                                            "examples": [
+                                                "Stanford"
+                                            ]
+                                        },
+                                        "wikipediaStranicaGlumca": {
+                                            "$id": "#/items/anyOf/0/properties/glumci/items/anyOf/0/properties/wikipediaStranicaGlumca",
+                                            "type": "string",
+                                            "title": "The wikipediaStranicaGlumca schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": "",
+                                            "examples": [
+                                                "Aaron_Stanford"
+                                            ]
+                                        }
+                                    },
+                                    "additionalProperties": true
+                                }
+                            ]
+                        }
+                    },
+                    "wikipediaStranicaSerije": {
+                        "$id": "#/items/anyOf/0/properties/wikipediaStranicaSerije",
+                        "type": "string",
+                        "title": "The wikipediaStranicaSerije schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "12_Monkeys_(TV_series)"
+                        ]
+                    },
+                    "brojSezona": {
+                        "$id": "#/items/anyOf/0/properties/brojSezona",
+                        "type": "integer",
+                        "title": "The brojSezona schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                            4
+                        ]
+                    },
+                    "godinaSnimanjaOdDo": {
+                        "$id": "#/items/anyOf/0/properties/godinaSnimanjaOdDo",
+                        "type": "string",
+                        "title": "The godinaSnimanjaOdDo schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "2015-2018"
+                        ]
+                    },
+                    "infoSerije": {
+                        "$id": "#/items/anyOf/0/properties/infoSerije",
+                        "type": "string",
+                        "title": "The infoSerije schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "James Cole, vremenski putnik iz distopijske, bolescu poharane buducnosti, stize u sadasnjost s ocajnickim zadatkom da promijeni tijek povijesti. Inspirirano istoimenim hit filmom iz 1995. godine."
+                        ]
+                    },
+                    "urlPostera": {
+                        "$id": "#/items/anyOf/0/properties/urlPostera",
+                        "type": "string",
+                        "title": "The urlPostera schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "https://i.pinimg.com/originals/54/58/9c/54589c20f2ee47bb77092c2b3aea90ac.jpg"
+                        ]
+                    }
+                },
+                "additionalProperties": true
+            }
+        ]
+    }
+}
