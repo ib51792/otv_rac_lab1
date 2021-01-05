@@ -1,0 +1,290 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "info": "Pregled Serija",
+    "version": "1.2"
+  },
+  "paths": {
+    "/serije": {
+      "get": {
+        "summary": "Dohvati sve serije iz baze",
+        "description": "Vraća sve serije",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Dohvaćene serije",
+            "schema": {
+              "$ref": "#/definitions/serija"
+            }
+          },
+          "404": {
+            "description": "Serije ne postoje"
+          }
+        }
+      }
+    },
+    "/serije/:id": {
+      "get": {
+        "summary": "Dohvati seriju na osnovu id-a",
+        "description": "Vraća jednu seriju",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "id",
+          "in": "path",
+          "description": "ID serije",
+          "required": true,
+          "type": "12 byte binary BSON",
+          "format": "BSON"
+        }],
+        "responses": {
+          "200": {
+            "description": "Dohvaćena serija",
+            "schema": {
+              "$ref": "#/definitions/serija"
+            }
+          },
+          "400": {
+            "description": "Id je krivog formata"
+          },
+          "404": {
+            "description": "Serija ne postoji"
+          }
+        }
+      }
+    },
+    "/serije/:id/glumci": {
+      "get": {
+        "summary": "Dohvati glumce jedne serije",
+        "description": "Vraća glumce serije",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "id",
+          "in": "path",
+          "description": "ID serije",
+          "required": true,
+          "type": "12 byte binary BSON",
+          "format": "BSON"
+        }],
+        "responses": {
+          "200": {
+            "description": "Dohvaćeni glumci",
+            "schema": {
+              "$ref": "#/definitions/glumci"
+            }
+          },
+          "404": {
+            "description": "Glumci ne postoje"
+          }
+        }
+      }
+    },
+    "/serije/:id/info": {
+      "get": {
+        "summary": "Dohvati info jedne serije",
+        "description": "Vraća info serije",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "id",
+          "in": "path",
+          "description": "ID serije",
+          "required": true,
+          "type": "12 byte binary BSON",
+          "format": "BSON"
+        }],
+        "responses": {
+          "200": {
+            "description": "Dohvaćeni info serije",
+            "schema": {
+              "$ref": "#/definitions/infoSerije"
+            }
+          },
+          "404": {
+            "description": "Info ne postoji"
+          }
+        }
+      }
+    },
+    "/serije/:id/imdbOcjena": {
+      "get": {
+        "summary": "Dohvati ocjenu jedne serije",
+        "description": "Vraća ocjenu serije",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "id",
+          "in": "path",
+          "description": "ID serije",
+          "required": true,
+          "type": "12 byte binary BSON",
+          "format": "BSON"
+        }],
+        "responses": {
+          "200": {
+            "description": "Dohvaćena ocjena serije",
+            "schema": {
+              "$ref": "#/definitions/ocjenaIMDb"
+            }
+          },
+          "404": {
+            "description": "Ocjena ne postoji"
+          }
+        }
+      }
+    },
+    "/serije/create": {
+      "post": {
+        "summary": "Spremi novu seriju",
+        "description": "Spremi novu seriju na osnovu request body-a",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "id",
+          "in": "path",
+          "description": "ID serije",
+          "required": true,
+          "type": "12 byte binary BSON",
+          "format": "BSON"
+        }],
+        "responses": {
+          "201": {
+            "description": "Spremljena nova serija",
+            "schema": {
+              "$ref": "#/definitions/serija"
+            }
+          }
+        }
+      }
+    },
+    "/serije/delete": {
+      "delete": {
+        "summary": "Obriši seriju iz baze",
+        "description": "Briše seriju",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "id",
+          "in": "path",
+          "description": "ID serije",
+          "required": true,
+          "type": "12 byte binary BSON",
+          "format": "BSON"
+        }],
+        "responses": {
+          "200": {
+            "description": "Serija uspješno obrisana"
+          }
+        }
+      }
+    },
+    "/serije/:id/update": {
+      "put": {
+        "summary": "Mijenja seriju na osnovu request body-a",
+        "description": "Mijenja parametre serije",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [{
+          "name": "id",
+          "in": "path",
+          "description": "ID serije",
+          "required": true,
+          "type": "12 byte binary BSON",
+          "format": "BSON"
+        }],
+        "responses": {
+          "201": {
+            "description": "Spremljene promjene serije",
+            "schema": {
+              "$ref": "#/definitions/serija"
+            }
+          }
+        }
+      }
+    },
+    "/openapi.json": {
+      "get": {
+        "summary": "Dohvaća openapi.json datoteku",
+        "description": "Vraća sadržaj openapi.json datoteke",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Uspješno dohvaćena datoteka"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "serija": {
+      "type": "object",
+      "properties": {
+        "nazivSerije": {
+          "$ref": "#/definitions/nazivSerije"
+        },
+        "ocjenaIMDb": {
+          "$ref": "#/definitions/ocjenaIMDb"
+        },
+        "glumci": {
+          "type": "array",
+          "$ref": "#/definitions/glumci"
+        },
+        "godinaSnimanjaOdDo": {
+          "type": "string"
+        },
+        "infoSerije": {
+          "$ref": "#/definitions/infoSerije"
+        },
+        "brojSezona": {
+          "type": "integer",
+          "format":"int32"
+        },
+        "wikipediaStranicaSerije": {
+          "type": "string"
+        },
+        "urlPostera": {
+          "type": "string"
+        },
+        "zanr": {
+          "type": "array",
+          "items":{
+            "type": "string"
+          }
+        },
+        "redatelj": {
+          "type": "array",
+          "items":{
+            "type": "string"
+          }
+        }
+      }
+    },
+    "nazivSerije": {
+      "type": "string"
+    },
+    "ocjenaIMDb": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "glumci": {
+      "type": "string"
+    },
+    "infoSerije": {
+      "type": "string"
+    }
+  }
+}
